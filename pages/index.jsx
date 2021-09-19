@@ -1,5 +1,15 @@
 import React from "react";
+import Link from "next/link";
 
-const Page = () => <div>IndexPage</div>
+const Page = () => {
+  return (
+    <div>
+      <h1>
+        IndexPage
+      </h1>
+      <Link href="notes" ><a>Note</a></Link>
+    </div>
+  )
+}
 
 export default Page;
